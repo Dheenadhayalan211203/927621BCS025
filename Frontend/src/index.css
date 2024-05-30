@@ -1,0 +1,89 @@
+/* styles.css */
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.sort-button, .pagination-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sort-button:hover, .pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.select-box {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-box {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 200px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.product-name {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.product-details {
+  font-size: 1em;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+
+  .sort-button, .pagination-button {
+      padding: 10px;
+      font-size: 1em;
+      width: 100%;
+  }
+
+  .select-box, .input-box {
+      width: 100%;
+  }
+
+  .product-card {
+      padding: 15px;
+  }
+
+  .product-name {
+      font-size: 1.2em;
+  }
+
+  .product-details {
+      font-size: 0.9em;
+  }
+}
+
+
+.img
+{
+  height: 200px;
+}
